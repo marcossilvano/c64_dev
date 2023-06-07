@@ -1,0 +1,21 @@
+{
+    "tasks": [
+        {
+            "type": "vs64",
+            "action": "build",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "label": "build project"
+        },
+        {
+            
+            "label": "build & copy",
+            "type": "shell",
+            "command": "bash",
+            "args": ["${workspaceFolder}/copy_to_home.sh"],
+            "dependsOn": "build project"
+        }
+    ]
+}

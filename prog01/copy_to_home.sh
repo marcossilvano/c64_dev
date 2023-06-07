@@ -1,0 +1,1 @@
+cp build/prog01.prg /home/marcos/Development/c64build/prog01.prg
