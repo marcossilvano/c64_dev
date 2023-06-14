@@ -1,0 +1,14 @@
+{
+    "name": "progw01",
+    "description": "Project progw01",
+    "toolkit": "acme",
+    "sources": [
+        "src/main.asm"
+    ],
+    "build": "debug",
+    "definitions": [],
+    "includes": [
+    ],
+    "args": [],
+    "compiler": ""
+}
